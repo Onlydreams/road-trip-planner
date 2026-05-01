@@ -1,51 +1,55 @@
 # Road Trip Planner
 
-基于高德地图 personal-map skill 的多日自驾游路线规划工具。
+A multi-day road trip planning tool based on the Amap personal-map skill.
 
-## 功能
+> China only — requires Amap API Key  
+> Dependency: [@lbs-amap/personal-map](https://clawhub.ai/lbs-amap/personal-map)  
+> [中文版本](README_CN.md)
 
-- 设计合理的多日自驾行程，控制每日驾驶时间（建议 4-6 小时）
-- 自动调用高德 Web 服务 API 进行地理编码、POI 搜索和驾车路径规划
-- 生成可在高德地图 App 中打开的个人地图小程序二维码
-- 输出 Markdown 格式的每日行程指南
-- 支持闭合环线设计，自动处理跨天里程补全
+## Features
 
-## 使用场景
+- Design reasonable multi-day road trip itineraries with controlled daily driving time (recommended 4–6 hours)
+- Automatically call Amap Web Service APIs for geocoding, POI search, and driving route planning
+- Generate QR codes for personal maps that can be opened in the Amap App
+- Output daily itinerary guides in Markdown format
+- Support closed-loop route design with automatic cross-day mileage completion
 
-当用户提到以下任意话题时，本 skill 会自动触发：
-- 规划自驾游路线 / 公路旅行 / 环线
-- 设计旅游行程（涉及多地驾驶）
-- 生成个人地图 / 旅游地图 / 路线二维码
-- 控制每日驾驶时间 / 避免疲劳驾驶
-- 查询沿途里程、加油站、医院等补给点
+## Use Cases
 
-## 前置依赖
+This skill triggers automatically when users mention any of the following:
+- Planning a road trip route / road trip / loop route
+- Designing a travel itinerary involving multi-city driving
+- Generating personal maps / travel maps / route QR codes
+- Controlling daily driving time / avoiding fatigued driving
+- Querying mileage, gas stations, hospitals, and other supply points along the route
 
-- [personal-map](https://github.com/amap-demo/amap-sdk-skills) skill（高德地图 API 封装）
-- 高德开放平台 Web 服务 API Key
+## Prerequisites
 
-## 核心原则
+- [personal-map](https://github.com/amap-demo/amap-sdk-skills) skill (Amap API wrapper)
+- Amap Open Platform Web Service API Key
 
-1. **不疲劳驾驶**：每日实际驾驶时间控制在 6 小时以内，理想状态 4-5 小时
-2. **连续路线**：所有天的节点合并为一条连续路线
-3. **闭合环线**：如果起点和终点是同一城市，确保终点节点在去重后仍然保留
-4. **每日弹性**：行程中保留机动空间，避免把时间排得太满
+## Core Principles
 
-## 文件结构
+1. **No fatigued driving**: Keep actual daily driving time under 6 hours, ideally 4–5 hours
+2. **Continuous route**: Merge all daily waypoints into a single continuous route
+3. **Closed loop**: If start and end are the same city, ensure the endpoint is preserved after deduplication
+4. **Daily flexibility**: Leave buffer room in the itinerary; avoid over-scheduling
+
+## File Structure
 
 ```
 road-trip-planner/
-├── SKILL.md         # 主指导文档
-├── examples.md      # 示例（蒙东、青甘、川西）
-└── README.md        # 本文件
+├── SKILL.md         # Main guidance document
+├── examples.md      # Examples (Mongolia East, Qinghai-Gansu, Western Sichuan)
+└── README.md        # This file
 ```
 
-## 示例
+## Examples
 
-详见 [examples.md](examples.md)，包含以下案例：
-- 蒙东呼伦贝尔 8 日环线
-- 青甘大环线 8 日自驾
-- 川西小环线 5 日自驾
+See [examples.md](examples.md) for the following cases:
+- Hulunbuir 8-day loop (Mongolia East)
+- Qinghai-Gansu Grand Loop 8-day road trip
+- Western Sichuan Mini Loop 5-day road trip
 
 ## License
 
