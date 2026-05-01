@@ -6,7 +6,7 @@
 
 **Design approach / 设计思路**：
 - Start/End: Hailar (closed loop) / 起点/终点：海拉尔（闭合环线）
-- Total: ~1200–1500km / 总里程约 1200-1500km
+- Total: ~1000–1100km / 总里程约 1000-1100km
 - Daily driving: 2–4 hours, relaxed pace / 每日驾驶 2-4 小时，节奏舒缓
 - Classic Hulunbuir Grand Loop covering grasslands, wetlands, forests, border areas, and lakes / 经典呼伦贝尔大环线，涵盖草原、湿地、森林、边境、湖泊多种地貌
 
@@ -16,9 +16,9 @@
 |-----|-------------|---------------|-----------------|
 | Day 1 | Hailar → Morigele River → Erguna / 海拉尔 → 莫日格勒河 → 额尔古纳 | 154km | 2.0h |
 | Day 2 | Erguna → Wetland → Birch Forest → Enhe / 额尔古纳 → 湿地 → 白桦林 → 恩和 | 99km | 1.7h |
-| Day 3 | Enhe → Shiwei → Linjiang / 恩和 → 室韦 → 临江 | 11km | 0.3h |
+| Day 3 | Enhe → Shiwei → Linjiang / 恩和 → 室韦 → 临江 | 80km | 1.5h |
 | Day 4 | Linjiang → Laoyingzui → Taiping → Mordaga / 临江 → 老鹰嘴 → 太平 → 莫尔道嘎 | 38km | 0.7h |
-| Day 5 | Mordaga → Aoluguya → Genhe / 莫尔道嘎 → 敖鲁古雅 → 根河 | 4km | 0.1h |
+| Day 5 | Mordaga → Aoluguya → Genhe / 莫尔道嘎 → 敖鲁古雅 → 根河 | 120km | 2.0h |
 | Day 6 | Genhe → Erguna → Heishantou / 根河 → 额尔古纳 → 黑山头 | 210km | 3.0h |
 | Day 7 | Heishantou → 186 Ribbon River → Manzhouli / 黑山头 → 186 彩带河 → 满洲里 | 170km | 1.8h |
 | Day 8 | Manzhouli → Hulun Lake → Hailar / 满洲里 → 呼伦湖 → 海拉尔 | 186km | 2.0h |
@@ -36,14 +36,15 @@ Hailar Airport, Morigele River, Erguna City, Erguna Wetland, Birch Forest Scenic
 
 ---
 
-## Example 2: Qinghai-Gansu Grand Loop 8-Day Road Trip / 青甘大环线 8 日自驾
+## Example 2: Qinghai-Gansu Grand Loop 9-Day Road Trip / 青甘大环线 9 日自驾
 
 **User input**: Plan a Qinghai-Gansu Grand Loop road trip starting from Xining. Consider daily driving time and avoid fatigued driving. / 给我规划一个西宁出发的青甘大环线自驾行程，记得考虑每日自驾时长，不要疲劳驾驶。
 
 **Design approach / 设计思路**：
 - Start/End: Xining (loop) / 起点/终点：西宁（环线）
-- Total: ~2000–2400km / 总里程约 2000-2400km
+- Total: ~2200–2600km / 总里程约 2200-2600km
 - Daily driving: 4–6 hours；Day 5 is a Dunhuang city rest day / 每日驾驶 4-6 小时，Day 5 敦煌市区纯玩驾驶极少
+- Day 8 drives through Qilian Mountain pass (high altitude, winding roads) — driving time compressed to ~5h with buffer / Day 8 穿越祁连山区，海拔高弯道多，驾驶时间需额外压缩
 
 **Route / 路线节点**：
 
@@ -56,13 +57,14 @@ Hailar Airport, Morigele River, Erguna City, Erguna Wetland, Birch Forest Scenic
 | Day 5 | Aksay → Dunhuang → Mingsha Mountain / 阿克塞 → 敦煌 → 鸣沙山月牙泉 | 85km | 1.7h |
 | Day 6 | Dunhuang → Mogao Caves → Jiayuguan / 敦煌 → 莫高窟 → 嘉峪关 | 409km | 4.6h |
 | Day 7 | Jiayuguan → Rainbow Danxia → Zhangye / 嘉峪关 → 七彩丹霞 → 张掖 | 263km | 4.4h |
-| Day 8 | Zhangye → Qilian Grassland → Menyuan → Xining / 张掖 → 祁连草原 → 门源 → 西宁 | 509km | 6.5h |
+| Day 8 | Zhangye → Biandukou → Qilian Grassland → Menyuan / 张掖 → 扁都口 → 祁连草原 → 门源 | 280km | 5.0h |
+| Day 9 | Menyuan → Datong → Xining / 门源 → 大通 → 西宁 | 150km | 2.5h |
 
-**Core map nodes (16) / 核心地图节点（16 个）**：
-Xining City, Ta'er Monastery, Qinghai Lake, Chaka Salt Lake, Delingha City, Dachaidan Emerald Lake, Dachaidan Town, Aksay Kazakh Autonomous County, Dunhuang City, Mingsha Mountain Crescent Spring, Mogao Caves, Jiayuguan City, Jiayuguan Fortress, Zhangye Rainbow Danxia, Qilian Mountain Grassland, Menyuan
+**Core map nodes (15) / 核心地图节点（15 个）**：
+Xining City, Ta'er Monastery, Qinghai Lake, Chaka Salt Lake, Delingha City, Dachaidan Emerald Lake, Dachaidan Town, Aksay Kazakh Autonomous County, Dunhuang City, Mingsha Mountain Crescent Spring, Mogao Caves, Jiayuguan Fortress, Zhangye Rainbow Danxia, Qilian Mountain Grassland, Menyuan
 
 **Output / 输出结果**：
-- Personal map QR code (closed loop)
+- Personal map QR code (closed loop, 15 nodes — one slot left for user customization)
 - Markdown itinerary guide (with altitude sickness, Mogao Caves tickets, temperature tips)
 
 ---

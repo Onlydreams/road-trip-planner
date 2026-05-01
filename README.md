@@ -23,10 +23,16 @@ This skill triggers automatically when users mention any of the following:
 - Controlling daily driving time / avoiding fatigued driving
 - Querying mileage, gas stations, hospitals, and other supply points along the route
 
+## Installation
+
+```bash
+openclaw skills install personal-map
+```
+
 ## Prerequisites
 
-- [personal-map](https://github.com/amap-demo/amap-sdk-skills) skill (Amap API wrapper)
-- Amap Open Platform Web Service API Key
+- [@lbs-amap/personal-map](https://clawhub.ai/lbs-amap/personal-map) skill ([GitHub](https://github.com/amap-demo/amap-sdk-skills) — Amap API wrapper)
+- Amap Open Platform Web Service API Key (set env var `AMAP_API_KEY`)
 
 ## Core Principles
 
@@ -41,14 +47,18 @@ This skill triggers automatically when users mention any of the following:
 road-trip-planner/
 ├── SKILL.md         # Main guidance document
 ├── examples.md      # Examples (Mongolia East, Qinghai-Gansu, Western Sichuan)
-└── README.md        # This file
+├── README.md        # This file (English)
+├── README_CN.md     # Chinese version
+├── CLAUDE.md        # Developer reference
+├── LICENSE          # MIT license
+└── .gitignore
 ```
 
 ## Examples
 
 See [examples.md](examples.md) for the following cases:
 - Hulunbuir 8-day loop (Mongolia East)
-- Qinghai-Gansu Grand Loop 8-day road trip
+- Qinghai-Gansu Grand Loop 9-day road trip
 - Western Sichuan Mini Loop 5-day road trip
 
 ## License

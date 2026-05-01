@@ -23,10 +23,16 @@
 - 控制每日驾驶时间 / 避免疲劳驾驶
 - 查询沿途里程、加油站、医院等补给点
 
+## 安装
+
+```bash
+openclaw skills install personal-map
+```
+
 ## 前置依赖
 
-- [personal-map](https://github.com/amap-demo/amap-sdk-skills) skill（高德地图 API 封装）
-- 高德开放平台 Web 服务 API Key
+- [@lbs-amap/personal-map](https://clawhub.ai/lbs-amap/personal-map) skill（[GitHub](https://github.com/amap-demo/amap-sdk-skills) — 高德地图 API 封装）
+- 高德开放平台 Web 服务 API Key（需配置环境变量 `AMAP_API_KEY`）
 
 ## 核心原则
 
@@ -41,14 +47,18 @@
 road-trip-planner/
 ├── SKILL.md         # 主指导文档
 ├── examples.md      # 示例（蒙东、青甘、川西）
-└── README.md        # 本文件
+├── README.md        # 英文说明
+├── README_CN.md     # 本文件（中文说明）
+├── CLAUDE.md        # 开发者参考
+├── LICENSE          # MIT 许可证
+└── .gitignore
 ```
 
 ## 示例
 
 详见 [examples.md](examples.md)，包含以下案例：
 - 蒙东呼伦贝尔 8 日环线
-- 青甘大环线 8 日自驾
+- 青甘大环线 9 日自驾
 - 川西小环线 5 日自驾
 
 ## License
