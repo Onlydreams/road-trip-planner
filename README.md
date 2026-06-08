@@ -46,6 +46,7 @@ openclaw skills install personal-map
 ```
 road-trip-planner/
 ├── SKILL.md         # Main guidance document
+├── references/      # Conditional references loaded only when needed
 ├── examples.md      # Examples (Mongolia East, Qinghai-Gansu, Western Sichuan)
 ├── README.md        # This file (English)
 ├── README_CN.md     # Chinese version

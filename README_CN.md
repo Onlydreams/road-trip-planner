@@ -46,6 +46,7 @@ openclaw skills install personal-map
 ```
 road-trip-planner/
 ├── SKILL.md         # 主指导文档
+├── references/      # 按需加载的参考资料
 ├── examples.md      # 示例（蒙东、青甘、川西）
 ├── README.md        # 英文说明
 ├── README_CN.md     # 本文件（中文说明）

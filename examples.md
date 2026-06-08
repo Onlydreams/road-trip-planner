@@ -24,7 +24,7 @@
 | Day 8 | Manzhouli → Hulun Lake → Hailar / 满洲里 → 呼伦湖 → 海拉尔 | 186km | 2.0h |
 
 **Core map nodes (16) / 核心地图节点（16 个）**：
-Hailar Airport, Morigele River, Erguna City, Erguna Wetland, Birch Forest Scenic Area, Enhe Russian Ethnic Village, Shiwei Port, Linjiang Village, Laoyingzui, Taiping Village, Mordaga National Forest Park, Aoluguya Reindeer Tribe, Genhe City, Heishantou Town, Manzhouli National Gate, Hulun Lake
+Hailar Airport, Morigele River, Erguna City, Erguna Wetland, Birch Forest Scenic Area, Enhe Russian Ethnic Village, Shiwei Port, Linjiang Village, Laoyingzui, Mordaga National Forest Park, Aoluguya Reindeer Tribe, Genhe City, Heishantou Town, Manzhouli National Gate, Hulun Lake, Hailar Airport
 
 **Output / 输出结果**：
 - Personal map QR code (16-node closed loop, Hailar at both start and end) / 个人地图小程序二维码（16 个节点闭合环线）
